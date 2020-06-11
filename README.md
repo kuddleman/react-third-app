@@ -1,3 +1,23 @@
+To create a mock api:
+
+1. Create a file with some data, say dbb.json
+
+2. Put the file on my desktop
+
+3.  cd to my desktop in CL and install json server (if it is not already installed)
+npm i -g json-server
+
+4.  Turn on the server and assign a port, eg:
+
+json-server --watch dbb.json --port 8900
+
+
+5.  Go to browser and look at data, don't forget name of data:
+
+http://localhost:8900/artists
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
